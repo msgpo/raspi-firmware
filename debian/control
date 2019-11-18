@@ -1,0 +1,13 @@
+Source: raspi-firmware
+Section: misc
+Priority: optional
+Maintainer: Nobody <nobody@nowhere.tld>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+
+Package: raspi-firmware
+Architecture: arm64
+Depends: ${misc:Depends},
+         ${shlib:Depends}
+Description: it raspi-firmwares
+ raspi-firmwares stuff
