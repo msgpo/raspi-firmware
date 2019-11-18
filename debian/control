@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.3
 
 Package: raspi-firmware
-Architecture: any
+Architecture: arm64
 Depends: ${misc:Depends}
 Description: it raspi-firmwares
  raspi-firmwares stuff
