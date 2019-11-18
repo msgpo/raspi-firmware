@@ -1,4 +1,4 @@
-raspi-firmware (1.2.0.2) bionic; urgency=medium
+raspi-firmware (1.20190925) bionic; urgency=medium
 
   * Hacky build for mark
 

@@ -4,3 +4,10 @@ export DH_VERBOSE = 1
 
 %:
 	dh ${@}
+
+
+override_dh_strip:
+	@echo "Not stripping. Stripping breaks on virtenv stuff."
+
+override_dh_shlibdeps:
+	@echo "Not figuring out deps."
